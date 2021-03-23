@@ -10,10 +10,32 @@
       {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
       {% if s.text %}{{ s.text | markdownify }}{% endif %}
       {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
+      <a href="https://hits.seeyoufarm.com">
+        <style>
+          .hits {
+            width: auto; height: auto;
+            max-width: 150px;
+            max-height: 40px;
+          }
+        </style>
+        <img class="hits" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2F7daydream.github.io&count_bg=%23D31313&title_bg=%23555555&icon=googledrive.svg&icon_color=%23C0B9B9&title=Young+Dean&edge_flat=false"/>
+      </a>
     {% endfor %}
     {% if page.sidebar.nav %}
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
   {% endif %}
+
+  <a href="https://hits.seeyoufarm.com">
+    <style>
+      .hits {
+        width: auto; height: auto;
+        max-width: 150px;
+        max-height: 40px;
+      }
+    </style>
+    <img class="hits" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2F7daydream.github.io&count_bg=%23D31313&title_bg=%23555555&icon=googledrive.svg&icon_color=%23C0B9B9&title=Young+Dean&edge_flat=false"/>
+  </a>
+
   </div>
 {% endif %}
