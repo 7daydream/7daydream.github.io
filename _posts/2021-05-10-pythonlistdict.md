@@ -2,7 +2,7 @@
 title: "Python List vs Dict vs Tuple"
 author: Young Dean
 date: 2021-05-10
-categories: [Lang, Python]
+categories: [Lang_Python]
 tags: [Python]
 toc: true
 toc_sticky: true
