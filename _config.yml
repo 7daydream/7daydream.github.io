@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "Dean Coding"
 title_separator          : "-"
-subtitle                 : Android Developer # site tagline that appears below site title in masthead
+subtitle                 : Junior Developer # site tagline that appears below site title in masthead
 name                     : "Young Dean"
 description              : # ""
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "Young Dean"
   avatar           : "/assets/image/profile_image.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I hope to be **Android Developer**."
+  bio              : "I hope to be **a Developer**."
   location         : "Seoul"
   email            :
   links:
